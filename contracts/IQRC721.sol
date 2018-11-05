@@ -22,22 +22,6 @@ contract IQRC721 is IERC165 {
     bool approved
   );
 
-  function mint(
-    address to,
-    uint256 tokenId
-  )
-    public
-    onlyMinter
-    returns (bool);
-  function mintWithTokenURI(
-    address to,
-    uint256 tokenId,
-    string tokenURI
-  )
-    public
-    onlyMinter
-    returns (bool);
-
   function balanceOf(address owner) public view returns (uint256 balance);
   function ownerOf(uint256 tokenId) public view returns (address owner);
 

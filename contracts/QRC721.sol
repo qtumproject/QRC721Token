@@ -7,7 +7,7 @@ import "./IQRC721.sol";
 
  // @title Full ERC721 Token
  // This implementation includes all the required and some optional functionality of the QRC721 standard
-contract QRC721 is ERC721Enumerable, ERC721Metadata, MinterRole, IQRC721 {
+contract QRC721 is IQRC721, ERC721Enumerable, ERC721Metadata, MinterRole {
   constructor(string name, string symbol) ERC721Metadata(name, symbol)
     public
   {

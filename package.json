@@ -14,8 +14,8 @@
   ],
   "author": "Lickey@Qtum <qi.li@qtum.org>",
   "license": "MIT",
-  "bugs":{
-    "url":"https://github.com/qtumproject/QRC721Token/issues"
+  "bugs": {
+    "url": "https://github.com/qtumproject/QRC721Token/issues"
   },
   "dependencies": {
     "openzeppelin-solidity": "2.0.0"

@@ -64,6 +64,7 @@ cli gasPrice 40 40
     5. Press "SEND TO CONTRACT" button and wait for the created transaction to be confirmed.
 
 ![image](image/1.png)
+
 2. Call QRC721 functions.
     1. Choose "Smart Contracts-Call" in Qtum QT.
     2. Copy the contract address and ABI to the form.

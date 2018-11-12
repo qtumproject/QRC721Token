@@ -1,21 +1,21 @@
 {
   "name": "qrc721",
   "version": "1.0.0",
-  "description": "QRC721 Contract Implementation",
+  "description": "QRC721 Token Template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lickey777/QRC721test"
+    "url": "https://github.com/qtumproject/QRC721Token"
   },
   "keywords": [
-    "solidity",
+    "QRC721",
     "Qtum",
-    "contracts",
-    "721token"
+    "solidity",
+    "contract"
   ],
   "author": "Lickey@Qtum <qi.li@qtum.org>",
   "license": "MIT",
   "bugs":{
-    "url":"https://github.com/lickey777/QRC721test/issues"
+    "url":"https://github.com/qtumproject/QRC721Token/issues"
   },
   "dependencies": {
     "openzeppelin-solidity": "2.0.0"

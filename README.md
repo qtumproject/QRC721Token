@@ -30,17 +30,13 @@ $ go get -u github.com/qtumproject/solar/cli/solar
 ## Quick Start
 Just git this example and install openzeppelin-solidity to get a quick start:
 ```
-$ mkdir&& myToken
+$ mkdir myToken
 
-$ cd mytToken
+$ cd myToken
 
 $ git colne https://github.com/lickey777/QRC721.git
 
-$ cd QRC721/contracts
-
-$ npm init -y
-
-$ npm install --save-exact openzeppelin-solidity
+$ npm install
 ```
 
 ## Start Qtum Full Node
@@ -53,7 +49,7 @@ You can define rpcuser,rpcpassword and rpcport by yourself.
 ## Deploy NFT contract
 Deploy Qrc721.sol in the myToken/contracts
 ```
-$ solar deploy QRC721test/contract/QRC721.sol '["name","symbol"]' --qtum_rpc=http://lickey:qtum@127.0.0.1:13889 --qtum_sender='Your testnet address'
+$ solar deploy contracts/QRC721.sol '["name","symbol"]' --qtum_rpc=http://lickey:qtum@127.0.0.1:13889 --qtum_sender='Your testnet address'
 ```
 Just make sure qtumrpc is consistent with the previous settings.
 If success you'll get :
@@ -79,4 +75,4 @@ $ gethexaddress "address"
 ```
 You can choose mint or mintWithURI to mint a NFT with tokenId to someone.
 
-Then you can call ownerOfafter this transaction is confirmed,you'll see state of this token has been changed.
+Then you can call function ownerOf after this transaction is confirmed, you'll see state of this token has been changed.

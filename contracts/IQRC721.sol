@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import "./node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol";
+import "../node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol";
 
 
 // QRC721 Non-Fungible Token Standard basic interface

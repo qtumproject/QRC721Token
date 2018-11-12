@@ -71,3 +71,7 @@ cli gasPrice 40 40
 
 ![image](image/2.png)
 ![image](image/3.png)
+
+3. Check the contract in the [blockchain explorer](https://testnet.qtum.info/contract/780e2578b08dddc56ca518277a18a2fb6f14da61). You can find the token name, total supply and other information in the page. More information about QRC721 will be supported later when needed.
+
+![image](image/4.png)

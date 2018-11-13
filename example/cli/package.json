@@ -1,0 +1,24 @@
+{
+  "name": "qrc721-cli",
+  "version": "1.0.0",
+  "description": "QRC721 Client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qtumproject/QRC721Token"
+  },
+  "keywords": [
+    "QRC721",
+    "Qtum",
+    "solidity",
+    "contract"
+  ],
+  "author": "ZhengYi@Qtum <zhengyi@qtum.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qtumproject/QRC721Token/issues"
+  },
+  "dependencies": {
+    "arg": "2.0.0",
+    "qtumjs": "1.9.1"
+  }
+}

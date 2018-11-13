@@ -63,16 +63,16 @@ cli gasPrice 40 40
     4. Choose the contract sender address as "Sender Address", since only the contract owner can mint new tokens.
     5. Press "SEND TO CONTRACT" button and wait for the created transaction to be confirmed.
 
-![image](image/1.png)
+![image](doc/image/1.png)
 
 2. Call QRC721 functions.
     1. Choose "Smart Contracts-Call" in Qtum QT.
     2. Copy the contract address and ABI to the form.
     3. Choose any function you want execute and Press "CALL CONTRACT" button. The you can see the result.
 
-![image](image/2.png)
-![image](image/3.png)
+![image](doc/image/2.png)
+![image](doc/image/3.png)
 
 3. Check the contract in the [blockchain explorer](https://testnet.qtum.info/contract/780e2578b08dddc56ca518277a18a2fb6f14da61). You can find the token name, total supply and other information in the page. More information about QRC721 will be supported later when needed.
 
-![image](image/4.png)
+![image](doc/image/4.png)

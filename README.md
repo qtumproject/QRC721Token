@@ -56,6 +56,10 @@ cli gasPrice 40 40
 ```
 
 ## Interact with QRC721
+### Using js
+See [example/cli](https://github.com/qtumproject/QRC721Token/tree/master/example/cli).
+
+### Using Qtum QT
 1. Mint some QRC721 tokens. 
     1. Choose "Smart Contracts-Send To" in Qtum QT.
     2. Copy the contract address and ABI to the form.

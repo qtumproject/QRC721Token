@@ -21,5 +21,10 @@ contract IQRC721 is IERC165 {
 
     function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory data) public;
 
+    function totalSupply() public view returns (uint256);
+    function tokenOfOwnerByIndex(address owner, uint256 index) public view returns (uint256 tokenId);
+
+    function tokenByIndex(uint256 index) public view returns (uint256);
+
     function mintWithTokenURI(address to, uint256 tokenId, string memory tokenURI) public returns (bool);
 }

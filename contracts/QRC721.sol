@@ -1,39 +1,9 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.0;
 
-import "../node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol";
-import "../node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol";
-import "../node_modules/openzeppelin-solidity/contracts/access/roles/MinterRole.sol";
+import "../node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721MetadataMintable.sol";
 import "./IQRC721.sol";
 
- // @title Full ERC721 Token
- // This implementation includes all the required and some optional functionality of the QRC721 standard
-contract QRC721 is IQRC721, ERC721Enumerable, ERC721Metadata, MinterRole {
-  constructor(string name, string symbol) ERC721Metadata(name, symbol)
-    public
-  {
-  }
-  function mint(
-    address to,
-    uint256 tokenId
-  )
-    public
-    onlyMinter
-    returns (bool)
-  {
-    _mint(to, tokenId);
-    return true;
-  }
-  function mintWithTokenURI(
-    address to,
-    uint256 tokenId,
-    string tokenURI
-  )
-    public
-    onlyMinter
-    returns (bool)
-  {
-    _mint(to, tokenId);
-    _setTokenURI(tokenId, tokenURI);
-    return true;
-  }
+contract QRC721 is IQRC721, ERC721MetadataMintable {
+    constructor(string memory name, string memory symbol) ERC721Metadata(name, symbol) public {
+    }
 }

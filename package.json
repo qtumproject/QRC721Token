@@ -18,6 +18,6 @@
     "url": "https://github.com/qtumproject/QRC721Token/issues"
   },
   "dependencies": {
-    "openzeppelin-solidity": "2.0.0"
+    "openzeppelin-solidity": "^2.1.3"
   }
 }

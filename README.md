@@ -13,7 +13,7 @@ You can refer to [this article](https://medium.com/@qtumx/understanding-nft-non-
 2. Install [Solar](https://github.com/qtumproject/solar). Solar is a smart contract deployment tool of Qtum.
 3. Download this project and install dependencies, like this:
 ```
-$ git colne https://github.com/qtumproject/QRC721Token.git
+$ git clone https://github.com/qtumproject/QRC721Token.git
 $ cd QRC721Token
 $ npm install
 ```
